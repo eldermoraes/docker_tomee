@@ -1,15 +1,14 @@
 <%-- 
     Document   : index
-    Created on : Jun 20, 2017, 4:53:09 PM
+    Created on : Jun 20, 2017, 3:53:55 PM
     Author     : eldermoraes
 --%>
 
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
     <head>
-        <title>Cluster Test</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
+        <title>Cluster Test</title>
         <style>
             .myButton {
                 -moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
@@ -37,27 +36,28 @@
                 text-shadow:0px 1px 0px #283966;
             }
             .myButton:hover {
-                    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
-                    background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-                    background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-                    background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-                    background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
-                    background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
-                    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
-                    background-color:#476e9e;
+                background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+                background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+                background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+                background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+                background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+                background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+                background-color:#476e9e;
             }
             .myButton:active {
-                    position:relative;
-                    top:1px;
+                position:relative;
+                top:1px;
             }
-        </style>
+        </style>    
     </head>
     <body>
         <center>
-            <br><br>
-            <h1>
-                <a href="<%=request.getContextPath()%>/rs/testcontroller"><button class="myButton" style="width: 400px;">Call Cluster Tester</button></a>
-            </h1>
+            <h1>The request is being answered by:</h1>
+            <h2><font color="red">IP: ${data.hostAddress}</font></h2>
+            <h2><font color="blue">HostName: ${data.canonicalHostName}</font></h2>
+            <h2><font color="green">Session ID: <%=request.getSession().getId()%></font></h2>
+            <a href="<%=request.getContextPath()%>/rs/testcontroller"><button class="myButton" style="width: 400px;">Reload Tester</button></a>
         </center>
     </body>
 </html>

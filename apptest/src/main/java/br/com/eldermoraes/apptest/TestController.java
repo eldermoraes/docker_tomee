@@ -14,8 +14,6 @@ import javax.mvc.Controller;
 import javax.mvc.Models;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.MediaType;
 
 /**
  *
@@ -45,7 +43,7 @@ public class TestController {
         
         models.put("data", data);
         
-        return "/index.jsp";
+        return "/test.jsp";
     }
     
 }
