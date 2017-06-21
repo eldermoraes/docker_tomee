@@ -56,7 +56,7 @@
         <center>
             <br><br>
             <h1>
-                <a href="<%=request.getContextPath()%>/rs/testcontroller"><button class="myButton" style="width: 400px;">Call Cluster Tester</button></a>
+                <a href="<%=request.getContextPath()%>/rs/testcontroller/testdata"><button class="myButton" style="width: 400px;">Call Cluster Tester</button></a>
             </h1>
         </center>
     </body>
