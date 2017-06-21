@@ -43,9 +43,9 @@ public class TestController {
             rd.forward(request, response);
         } catch (UnknownHostException ex) {
             Logger.getLogger(TestController.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (ServletException | IOException ex) {
+        } catch (IOException | ServletException ex) {
             Logger.getLogger(TestController.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        } 
         
         
     }    

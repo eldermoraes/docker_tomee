@@ -57,7 +57,7 @@
             <h2><font color="red">IP: ${data.hostAddress}</font></h2>
             <h2><font color="blue">HostName: ${data.canonicalHostName}</font></h2>
             <h2><font color="green">Session ID: <%=request.getSession().getId()%></font></h2>
-            <a href="<%=request.getContextPath()%>/rs/testcontroller"><button class="myButton" style="width: 400px;">Reload Tester</button></a>
+            <a href="<%=request.getContextPath()%>/rs/testcontroller/testdata"><button class="myButton" style="width: 400px;">Reload Tester</button></a>
         </center>
     </body>
 </html>
