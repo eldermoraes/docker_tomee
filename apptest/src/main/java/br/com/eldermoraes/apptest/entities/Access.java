@@ -1,31 +1,40 @@
 package br.com.eldermoraes.apptest.entities;
 
 import java.io.Serializable;
+import javax.persistence.Basic;
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @Entity
-@Table(name = "ACCESS")
+@Table(name = "access")
 @XmlRootElement
 @NamedQueries({
-    @NamedQuery(name = "Access.findAll", query = "SELECT a FROM Access a")
+    @NamedQuery(name = "Access.findAll", query = "SELECT a FROM Access a ORDER BY a.id DESC ")
 })
 public class Access implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     @Id
-    @NotNull
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Basic(optional = false)
+    @Column(name = "idaccess")
     private Integer id;
 
+    @Basic(optional = false)
     @NotNull
+    @Size(min = 1, max = 500)
+    @Column(name = "description")
     private String description;
-
 
     public Access() {
     }
@@ -77,6 +86,6 @@ public class Access implements Serializable {
 
     @Override
     public String toString() {
-        return "Access[id=" + id + "]";
+        return "Access[id=" + id + ", description=" + description + "]";
     }
 }

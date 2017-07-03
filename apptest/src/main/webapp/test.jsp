@@ -58,6 +58,7 @@
             <h2><font color="blue">HostName: ${data.canonicalHostName}</font></h2>
             <h2><font color="green">Session ID: <%=request.getSession().getId()%></font></h2>
             <a href="<%=request.getContextPath()%>/rs/testcontroller/testdata"><button class="myButton" style="width: 400px;">Reload Tester</button></a>
+            <h2><font color="grey">Session ID: <br>${access}</font></h2>
         </center>
     </body>
 </html>

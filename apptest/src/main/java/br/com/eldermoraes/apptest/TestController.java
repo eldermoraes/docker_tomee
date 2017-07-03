@@ -6,11 +6,15 @@
 package br.com.eldermoraes.apptest;
 
 import br.com.eldermoraes.apptest.beans.TestData;
+import br.com.eldermoraes.apptest.business.AccessBean;
+import br.com.eldermoraes.apptest.entities.Access;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.inject.Inject;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -27,6 +31,9 @@ import javax.ws.rs.core.Context;
 @Path("/testcontroller")
 public class TestController {
     
+    @Inject
+    private AccessBean accessBean;
+    
     @GET
     @Path("/testdata")
     public void testData(@Context HttpServletRequest request, 
@@ -38,8 +45,22 @@ public class TestController {
             
             data.setCanonicalHostName(localhost.getCanonicalHostName());
             data.setHostAddress(localhost.getHostAddress());
-            
             request.setAttribute("data", data);
+            
+            try{
+                accessBean.add();
+
+                List<Access> list = accessBean.getAll();
+                StringBuilder listString = new StringBuilder();
+                for (Access access: list){
+                    listString.append(access.getDescription());
+                    listString.append("<br>");
+                }
+                request.setAttribute("access", listString);
+            } catch(Exception e){
+                request.setAttribute("access", "Database is not available");
+            }
+
             RequestDispatcher rd = request.getRequestDispatcher("/test.jsp");
             rd.forward(request, response);
         } catch (UnknownHostException ex) {
