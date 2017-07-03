@@ -1,4 +1,4 @@
-docker rmi tomee-soujava
+docker rmi -f tomee-soujava
 
 cp ../apptest/target/apptest-1.0.war apptest.war
 

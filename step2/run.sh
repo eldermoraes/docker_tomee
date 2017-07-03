@@ -1,5 +1,5 @@
-docker rm -f tomee-soujava
-docker rm -f mysql-soujava
+docker rm -f tomee-soujava || true
+docker rm -f mysql-soujava || true
 
 docker run -d --name mysql-soujava \
 	-h mysql-soujava \
