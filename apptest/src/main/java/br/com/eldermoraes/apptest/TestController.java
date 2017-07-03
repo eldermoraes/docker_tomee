@@ -5,6 +5,7 @@
  */
 package br.com.eldermoraes.apptest;
 
+import br.com.eldermoraes.apptest.beans.TestData;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
