@@ -154,14 +154,32 @@
                   <Sender className="org.apache.catalina.tribes.transport.ReplicationTransmitter">
                     <Transport className="org.apache.catalina.tribes.transport.nio.PooledParallelSender"/>
                   </Sender>
-                  <Interceptor className="org.apache.catalina.tribes.group.interceptors.TcpFailureDetector"/>
+                  <Interceptor className="org.apache.catalina.tribes.group.interceptors.TcpFailureDetector">
+
+			<Interceptor className="org.apache.catalina.tribes.group.interceptors.StaticMembershipInterceptor">
+       				<Member className="org.apache.catalina.tribes.membership.StaticMember"
+                  			port="5678"
+                  			securePort="-1"
+                  			host="tomee-soujava1"
+                  			domain="staging-cluster"
+                  			uniqueId="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1}"/>
+				<Member className="org.apache.catalina.tribes.membership.StaticMember"
+                                        port="5678"
+                                        securePort="-1"
+                                        host="tomee-soujava2"
+                                        domain="staging-cluster"
+                                        uniqueId="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2}"/>
+				<Member className="org.apache.catalina.tribes.membership.StaticMember"
+                                        port="5678"
+                                        securePort="-1"
+                                        host="tomee-soujava3"
+                                        domain="staging-cluster"
+                                        uniqueId="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3}"/>
+     			</Interceptor>
+
+		  </Interceptor>
                   <Interceptor className="org.apache.catalina.tribes.group.interceptors.MessageDispatchInterceptor"/>
 
-                  <Interceptor className="org.apache.catalina.tribes.group.interceptors.StaticMembershipInterceptor">
-                      <Member className="org.apache.catalina.tribes.membership.StaticMember" port="4000" host="tomee-soujava1" uniqueId="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1}" />
-                      <Member className="org.apache.catalina.tribes.membership.StaticMember" port="4000" host="tomee-soujava2" uniqueId="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2}" />
-                      <Member className="org.apache.catalina.tribes.membership.StaticMember" port="4000" host="tomee-soujava3" uniqueId="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3}" />
-                  </Interceptor>
                 </Channel>
 
                 <Valve className="org.apache.catalina.ha.tcp.ReplicationValve"
