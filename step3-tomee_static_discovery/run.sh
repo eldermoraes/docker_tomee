@@ -1,9 +1,4 @@
-docker rm -f tomee-soujava || true
-docker rm -f tomee-soujava1 || true
-docker rm -f tomee-soujava2 || true
-docker rm -f tomee-soujava3 || true
-docker rm -f mysql-soujava || true
-docker rm -f lb-soujava || true
+docker rm -f $(docker ps -a -q)
 
 docker run -d --name mysql-soujava \
 	-h mysql-soujava \
@@ -12,7 +7,7 @@ docker run -d --name mysql-soujava \
 	-e MYSQL_DATABASE=soujava \
 	mysql-soujava
 
-sleep 10
+sleep 3
 
 docker run -d --name tomee-soujava1 \
 	-h tomee-soujava1 \
