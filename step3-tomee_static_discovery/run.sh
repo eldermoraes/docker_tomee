@@ -2,6 +2,7 @@ docker rm -f $(docker ps -a -q)
 
 docker run -d --name mysql-soujava \
 	-h mysql-soujava \
+	--network=soujava-network --ip 172.28.5.99 \
 	-p 3306:3306 \
 	-e MYSQL_ROOT_PASSWORD=soujava \
 	-e MYSQL_DATABASE=soujava \

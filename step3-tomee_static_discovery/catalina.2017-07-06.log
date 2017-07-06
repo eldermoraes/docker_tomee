@@ -1,0 +1,192 @@
+06-Jul-2017 18:43:50.742 INFO [main] org.apache.openejb.persistence.PersistenceBootstrap.getDefaultProvider Default JPA Provider changed to org.eclipse.persistence.jpa.PersistenceProvider
+06-Jul-2017 18:43:51.304 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke   No rules found matching 'Server/Service/Engine/Cluster/Channel/Interceptor/Interceptor/Member'.
+06-Jul-2017 18:43:51.304 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke   No rules found matching 'Server/Service/Engine/Cluster/Channel/Interceptor/Interceptor/Member'.
+06-Jul-2017 18:43:51.304 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke   No rules found matching 'Server/Service/Engine/Cluster/Channel/Interceptor/Interceptor/Member'.
+06-Jul-2017 18:43:51.305 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke   No rules found matching 'Server/Service/Engine/Cluster/Channel/Interceptor/Interceptor'.
+06-Jul-2017 18:43:51.363 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.11 (7.0.3)
+06-Jul-2017 18:43:51.363 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Jan 10 2017 21:02:52 UTC
+06-Jul-2017 18:43:51.363 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.11.0
+06-Jul-2017 18:43:51.364 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+06-Jul-2017 18:43:51.364 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            4.8.0-56-generic
+06-Jul-2017 18:43:51.364 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+06-Jul-2017 18:43:51.364 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+06-Jul-2017 18:43:51.364 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_131-8u131-b11-1~bpo8+1-b11
+06-Jul-2017 18:43:51.364 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+06-Jul-2017 18:43:51.364 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /usr/local/tomee
+06-Jul-2017 18:43:51.364 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /usr/local/tomee
+06-Jul-2017 18:43:51.365 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/usr/local/tomee/conf/logging.properties
+06-Jul-2017 18:43:51.365 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jul-2017 18:43:51.365 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:/usr/local/tomee/lib/openejb-javaagent.jar
+06-Jul-2017 18:43:51.365 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jul-2017 18:43:51.366 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jul-2017 18:43:51.366 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/usr/local/tomee
+06-Jul-2017 18:43:51.366 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/usr/local/tomee
+06-Jul-2017 18:43:51.366 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/usr/local/tomee/temp
+06-Jul-2017 18:43:51.366 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+06-Jul-2017 18:43:51.527 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+06-Jul-2017 18:43:51.558 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+06-Jul-2017 18:43:51.561 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+06-Jul-2017 18:43:51.565 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+06-Jul-2017 18:43:52.156 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+06-Jul-2017 18:43:52.345 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+06-Jul-2017 18:43:52.346 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+06-Jul-2017 18:43:52.348 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Thu Jul 06 18:43:52 UTC 2017
+06-Jul-2017 18:43:52.349 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2017 (C) Apache OpenEJB Project, All Rights Reserved.
+06-Jul-2017 18:43:52.350 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.3
+06-Jul-2017 18:43:52.351 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20170307
+06-Jul-2017 18:43:52.351 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 10:02
+06-Jul-2017 18:43:52.352 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+06-Jul-2017 18:43:52.357 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = /usr/local/tomee
+06-Jul-2017 18:43:52.358 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = /usr/local/tomee
+06-Jul-2017 18:43:52.364 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@3967e60c
+06-Jul-2017 18:43:52.365 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+06-Jul-2017 18:43:52.420 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is '/usr/local/tomee/conf/tomee.xml'
+06-Jul-2017 18:43:52.511 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+06-Jul-2017 18:43:52.515 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+06-Jul-2017 18:43:52.517 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=AppTestDs, type=Resource, provider-id=Default JDBC Database)
+06-Jul-2017 18:43:52.521 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+06-Jul-2017 18:43:52.529 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+06-Jul-2017 18:43:52.595 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+06-Jul-2017 18:43:52.634 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=AppTestDs)
+06-Jul-2017 18:43:53.253 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+06-Jul-2017 18:43:53.880 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+06-Jul-2017 18:43:54.009 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+06-Jul-2017 18:43:54.009 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT
+06-Jul-2017 18:43:54.010 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+06-Jul-2017 18:43:54.010 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+06-Jul-2017 18:43:54.010 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 3229 ms
+06-Jul-2017 18:43:54.064 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+06-Jul-2017 18:43:54.065 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+06-Jul-2017 18:43:54.072 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service Catalina
+06-Jul-2017 18:43:54.073 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.11 (7.0.3)
+06-Jul-2017 18:43:54.084 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Cluster is about to start
+06-Jul-2017 18:43:54.092 FINE [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting replication listener on address:172.28.5.1
+06-Jul-2017 18:43:54.094 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Receiver Server Socket bound to:/172.28.5.1:4000
+06-Jul-2017 18:43:54.111 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to 500
+06-Jul-2017 18:43:54.115 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for 1000 milliseconds to establish cluster membership, start level:4
+06-Jul-2017 18:43:55.118 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:4
+06-Jul-2017 18:43:55.121 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for 1000 milliseconds to establish cluster membership, start level:8
+06-Jul-2017 18:43:56.121 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:8
+06-Jul-2017 18:43:56.123 SEVERE [main] sun.reflect.NativeMethodAccessorImpl.invoke FarmWarDeployer can only work as host cluster subelement!
+06-Jul-2017 18:43:56.256 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive /usr/local/tomee/webapps/apptest.war
+06-Jul-2017 18:43:56.277 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /apptest
+06-Jul-2017 18:43:56.281 INFO [localhost-startStop-1] org.apache.openejb.util.JarExtractor.extract Extracting jar: /usr/local/tomee/webapps/apptest.war
+06-Jul-2017 18:43:56.292 INFO [localhost-startStop-1] org.apache.openejb.util.JarExtractor.extract Extracted path: /usr/local/tomee/webapps/apptest
+06-Jul-2017 18:43:57.268 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /usr/local/tomee/webapps/apptest
+06-Jul-2017 18:43:57.627 INFO [localhost-startStop-1] org.apache.openejb.config.InitEjbDeployments.deploy Auto-deploying ejb AccessBean: EjbDeployment(deployment-id=AccessBean)
+06-Jul-2017 18:43:57.632 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+06-Jul-2017 18:43:57.632 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean AccessBean: Container(type=STATELESS, id=Default Stateless Container)
+06-Jul-2017 18:43:57.633 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Stateless Container)
+06-Jul-2017 18:43:57.663 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+06-Jul-2017 18:43:57.663 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean apptest.Comp917381883: Container(type=MANAGED, id=Default Managed Container)
+06-Jul-2017 18:43:57.663 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+06-Jul-2017 18:43:57.693 INFO [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory /usr/local/tomee/temp for stateful session passivation
+06-Jul-2017 18:43:57.716 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.deploy Configuring PersistenceUnit(name=AppTestPU)
+06-Jul-2017 18:43:57.718 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'AppTestDsNonJta' of type 'DataSource for 'AppTestPU'.
+06-Jul-2017 18:43:57.718 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.deploy Configuring Service(id=AppTestDsNonJta, type=Resource, provider-id=AppTestDs)
+06-Jul-2017 18:43:57.718 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=AppTestDsNonJta)
+06-Jul-2017 18:43:57.772 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.setNonJtaDataSource Adjusting PersistenceUnit AppTestPU <non-jta-data-source> to Resource ID 'AppTestDsNonJta' from 'null'
+06-Jul-2017 18:43:57.814 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:104857600 bytes of type: org.apache.catalina.tribes.io.BufferPool15Impl
+06-Jul-2017 18:43:57.838 FINE [Tribes-Task-Receiver[Catalina-Channel]-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Received a failure detector packet:ClusterData[src=org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 28, 5, 2}:4000,{172, 28, 5, 2},4000, alive=13, securePort=-1, UDP Port=-1, id={-20 108 -43 -108 94 -9 69 -40 -88 -16 119 -44 -9 -75 53 -81 }, payload={}, command={}, domain={}, ]; id={-93 -30 83 97 -40 114 71 -18 -97 86 -8 -101 52 -116 118 -3 }; sent=2017-07-06 18:43:57.632]
+06-Jul-2017 18:43:57.839 FINE [Tribes-Task-Receiver[Catalina-Channel]-2] org.apache.catalina.tribes.transport.nio.NioReplicationTask.remoteEof Channel closed on the remote end, disconnecting
+06-Jul-2017 18:43:57.858 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/usr/local/tomee/webapps/apptest" loaded.
+06-Jul-2017 18:43:57.864 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /usr/local/tomee/webapps/apptest
+06-Jul-2017 18:43:58.291 FINE [Tribes-MembershipReceiver[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.memberDataReceived Mcast add member org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 28, 5, 2}:4000,{172, 28, 5, 2},4000, alive=1020, securePort=-1, UDP Port=-1, id={-20 108 -43 -108 94 -9 69 -40 -88 -16 119 -44 -9 -75 53 -81 }, payload={}, command={}, domain={}, ]
+06-Jul-2017 18:43:58.295 INFO [Membership-MemberAdded.] sun.reflect.DelegatingMethodAccessorImpl.invoke Replication member added:org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 28, 5, 2}:4000,{172, 28, 5, 2},4000, alive=1021, securePort=-1, UDP Port=-1, id={-20 108 -43 -108 94 -9 69 -40 -88 -16 119 -44 -9 -75 53 -81 }, payload={}, command={}, domain={}, ]
+06-Jul-2017 18:43:58.804 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=AppTestPU, provider=org.eclipse.persistence.jpa.PersistenceProvider) - provider time 883ms
+06-Jul-2017 18:43:58.905 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=AccessBeanLocalBean) --> Ejb(deployment-id=AccessBean)
+06-Jul-2017 18:43:58.905 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/apptest/AccessBean!br.com.eldermoraes.apptest.business.AccessBean) --> Ejb(deployment-id=AccessBean)
+06-Jul-2017 18:43:58.910 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/apptest/AccessBean) --> Ejb(deployment-id=AccessBean)
+06-Jul-2017 18:43:58.964 INFO [localhost-startStop-1] org.apache.openejb.cdi.CdiBuilder.initSingleton Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@3967e60c
+06-Jul-2017 18:43:59.088 INFO [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container is starting...
+06-Jul-2017 18:43:59.099 INFO [localhost-startStop-1] org.apache.webbeans.plugins.PluginLoader.startUp Adding OpenWebBeansPlugin : [CdiPlugin]
+06-Jul-2017 18:43:59.633 FINE [Tribes-Task-Receiver[Catalina-Channel]-3] sun.reflect.DelegatingMethodAccessorImpl.invoke Received a failure detector packet:ClusterData[src=org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 28, 5, 3}:4000,{172, 28, 5, 3},4000, alive=4, securePort=-1, UDP Port=-1, id={-31 -123 -19 10 -79 42 68 -74 -80 -60 55 106 9 19 -67 52 }, payload={}, command={}, domain={}, ]; id={77 -53 -88 5 -62 -2 69 -67 -99 64 -125 67 75 7 81 -10 }; sent=2017-07-06 18:43:59.63]
+06-Jul-2017 18:43:59.633 FINE [Tribes-Task-Receiver[Catalina-Channel]-4] org.apache.catalina.tribes.transport.nio.NioReplicationTask.remoteEof Channel closed on the remote end, disconnecting
+06-Jul-2017 18:43:59.722 INFO [localhost-startStop-1] org.apache.webbeans.config.BeansDeployer.validateInjectionPoints All injection points were validated successfully.
+06-Jul-2017 18:43:59.742 INFO [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container has started, it took 654 ms.
+06-Jul-2017 18:43:59.760 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=AccessBean, ejb-name=AccessBean, container=Default Stateless Container)
+06-Jul-2017 18:43:59.803 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=AccessBean, ejb-name=AccessBean, container=Default Stateless Container)
+06-Jul-2017 18:43:59.803 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /usr/local/tomee/webapps/apptest/META-INF/context.xml
+06-Jul-2017 18:43:59.809 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/usr/local/tomee/webapps/apptest)
+06-Jul-2017 18:44:00.170 FINE [Tribes-MembershipReceiver[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.memberDataReceived Mcast add member org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 28, 5, 3}:4000,{172, 28, 5, 3},4000, alive=1007, securePort=-1, UDP Port=-1, id={-31 -123 -19 10 -79 42 68 -74 -80 -60 55 106 9 19 -67 52 }, payload={}, command={}, domain={}, ]
+06-Jul-2017 18:44:00.173 INFO [Membership-MemberAdded.] sun.reflect.DelegatingMethodAccessorImpl.invoke Replication member added:org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 28, 5, 3}:4000,{172, 28, 5, 3},4000, alive=1007, securePort=-1, UDP Port=-1, id={-31 -123 -19 10 -79 42 68 -74 -80 -60 55 106 9 19 -67 52 }, payload={}, command={}, domain={}, ]
+06-Jul-2017 18:44:00.268 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jul-2017 18:44:00.475 INFO [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager localhost#/apptest to cluster element Engine with name Catalina
+06-Jul-2017 18:44:00.475 INFO [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at localhost#/apptest
+06-Jul-2017 18:44:00.487 INFO [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/apptest], requesting session state from org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 28, 5, 2}:4000,{172, 28, 5, 2},4000, alive=3026, securePort=-1, UDP Port=-1, id={-20 108 -43 -108 94 -9 69 -40 -88 -16 119 -44 -9 -75 53 -81 }, payload={}, command={}, domain={}, ]. This operation will timeout if no session state has been received within 60 seconds.
+06-Jul-2017 18:44:00.691 WARNING [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/apptest]: No context manager send at 7/6/17 6:44 PM received in 216 ms.
+06-Jul-2017 18:44:01.058 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using readers:
+06-Jul-2017 18:44:01.059 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@24a285fb
+06-Jul-2017 18:44:01.059 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@6a76204f
+06-Jul-2017 18:44:01.059 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@4174b843
+06-Jul-2017 18:44:01.059 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@2f3eb8f3
+06-Jul-2017 18:44:01.059 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@7d3081a7
+06-Jul-2017 18:44:01.059 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@269fb216
+06-Jul-2017 18:44:01.059 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJohnzonProvider@7cf92d9a
+06-Jul-2017 18:44:01.059 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@2f273d88
+06-Jul-2017 18:44:01.060 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@561ce9d3
+06-Jul-2017 18:44:01.060 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@662123b6
+06-Jul-2017 18:44:01.060 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@53814715
+06-Jul-2017 18:44:01.060 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using writers:
+06-Jul-2017 18:44:01.060 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.johnzon.jaxrs.WadlDocumentMessageBodyWriter@455cfb90
+06-Jul-2017 18:44:01.060 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@561ce9d3
+06-Jul-2017 18:44:01.060 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@7d3081a7
+06-Jul-2017 18:44:01.060 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@24a285fb
+06-Jul-2017 18:44:01.060 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@6a76204f
+06-Jul-2017 18:44:01.060 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@4174b843
+06-Jul-2017 18:44:01.061 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@2f3eb8f3
+06-Jul-2017 18:44:01.061 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@269fb216
+06-Jul-2017 18:44:01.061 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJohnzonProvider@7cf92d9a
+06-Jul-2017 18:44:01.061 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@2f273d88
+06-Jul-2017 18:44:01.061 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@662123b6
+06-Jul-2017 18:44:01.061 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@53814715
+06-Jul-2017 18:44:01.061 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using exception mappers:
+06-Jul-2017 18:44:01.061 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper@21d6ddba
+06-Jul-2017 18:44:01.061 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.EJBExceptionMapper@177625b1
+06-Jul-2017 18:44:01.061 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.validation.ValidationExceptionMapper@19e63e89
+06-Jul-2017 18:44:01.064 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints REST Application: http://localhost:8080/apptest/rs                         -> br.com.eldermoraes.apptest.AppConfigTest@600f1fbd
+06-Jul-2017 18:44:01.077 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/apptest/rs/testcontroller          -> Pojo br.com.eldermoraes.apptest.TestController
+06-Jul-2017 18:44:01.077 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/apptest/rs/testcontroller/testdata ->      void testData(HttpServletRequest, HttpServletResponse)
+06-Jul-2017 18:44:01.109 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive /usr/local/tomee/webapps/apptest.war has finished in 4,852 ms
+06-Jul-2017 18:44:01.110 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory /usr/local/tomee/webapps/manager
+06-Jul-2017 18:44:01.111 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+06-Jul-2017 18:44:01.383 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /usr/local/tomee/webapps/manager
+06-Jul-2017 18:44:01.419 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/usr/local/tomee/webapps/manager" loaded.
+06-Jul-2017 18:44:01.420 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /usr/local/tomee/webapps/manager
+06-Jul-2017 18:44:01.433 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /usr/local/tomee/webapps/manager/META-INF/context.xml
+06-Jul-2017 18:44:01.435 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/usr/local/tomee/webapps/manager)
+06-Jul-2017 18:44:01.724 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jul-2017 18:44:01.797 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory /usr/local/tomee/webapps/manager has finished in 687 ms
+06-Jul-2017 18:44:01.804 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory /usr/local/tomee/webapps/ROOT
+06-Jul-2017 18:44:01.804 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+06-Jul-2017 18:44:01.951 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /usr/local/tomee/webapps/ROOT
+06-Jul-2017 18:44:01.957 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/usr/local/tomee/webapps/ROOT" loaded.
+06-Jul-2017 18:44:01.958 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /usr/local/tomee/webapps/ROOT
+06-Jul-2017 18:44:01.965 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/usr/local/tomee/webapps/ROOT)
+06-Jul-2017 18:44:02.157 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jul-2017 18:44:02.216 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory /usr/local/tomee/webapps/ROOT has finished in 412 ms
+06-Jul-2017 18:44:02.217 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory /usr/local/tomee/webapps/docs
+06-Jul-2017 18:44:02.218 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+06-Jul-2017 18:44:02.397 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /usr/local/tomee/webapps/docs
+06-Jul-2017 18:44:02.417 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/usr/local/tomee/webapps/docs" loaded.
+06-Jul-2017 18:44:02.418 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /usr/local/tomee/webapps/docs
+06-Jul-2017 18:44:02.430 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/usr/local/tomee/webapps/docs)
+06-Jul-2017 18:44:02.569 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jul-2017 18:44:02.597 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory /usr/local/tomee/webapps/docs has finished in 380 ms
+06-Jul-2017 18:44:02.598 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory /usr/local/tomee/webapps/host-manager
+06-Jul-2017 18:44:02.602 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+06-Jul-2017 18:44:02.744 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /usr/local/tomee/webapps/host-manager
+06-Jul-2017 18:44:02.785 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/usr/local/tomee/webapps/host-manager" loaded.
+06-Jul-2017 18:44:02.785 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /usr/local/tomee/webapps/host-manager
+06-Jul-2017 18:44:02.797 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /usr/local/tomee/webapps/host-manager/META-INF/context.xml
+06-Jul-2017 18:44:02.798 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/usr/local/tomee/webapps/host-manager)
+06-Jul-2017 18:44:02.996 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jul-2017 18:44:03.025 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory /usr/local/tomee/webapps/host-manager has finished in 427 ms
+06-Jul-2017 18:44:03.044 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke JvmRouteBinderValve started
+06-Jul-2017 18:44:03.146 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [http-nio-8080]
+06-Jul-2017 18:44:03.157 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [ajp-nio-8009]
+06-Jul-2017 18:44:03.173 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 9162 ms
+06-Jul-2017 18:44:32.667 FINE [Tribes-Task-Receiver[Catalina-Channel]-2] sun.reflect.DelegatingMethodAccessorImpl.invoke Received a failure detector packet:ClusterData[src=org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 28, 5, 4}:4000,{172, 28, 5, 4},4000, alive=6, securePort=-1, UDP Port=-1, id={89 26 94 6 -8 -65 79 24 -123 -116 -73 -10 127 -62 125 -26 }, payload={}, command={}, domain={}, ]; id={73 -57 -109 7 64 -82 75 1 -78 -84 99 -114 -34 -34 -93 4 }; sent=2017-07-06 18:44:32.666]
+06-Jul-2017 18:44:32.667 FINE [Tribes-Task-Receiver[Catalina-Channel]-2] org.apache.catalina.tribes.transport.nio.NioReplicationTask.remoteEof Channel closed on the remote end, disconnecting
+06-Jul-2017 18:44:33.401 FINE [Tribes-MembershipReceiver[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.memberDataReceived Mcast add member org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 28, 5, 4}:4000,{172, 28, 5, 4},4000, alive=1010, securePort=-1, UDP Port=-1, id={89 26 94 6 -8 -65 79 24 -123 -116 -73 -10 127 -62 125 -26 }, payload={}, command={}, domain={}, ]
+06-Jul-2017 18:44:33.403 INFO [Membership-MemberAdded.] sun.reflect.DelegatingMethodAccessorImpl.invoke Replication member added:org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 28, 5, 4}:4000,{172, 28, 5, 4},4000, alive=1011, securePort=-1, UDP Port=-1, id={89 26 94 6 -8 -65 79 24 -123 -116 -73 -10 127 -62 125 -26 }, payload={}, command={}, domain={}, ]

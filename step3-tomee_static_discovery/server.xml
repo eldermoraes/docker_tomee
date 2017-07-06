@@ -132,47 +132,44 @@
             -->
 
             <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster"
-                     channelSendOptions="8">
+			channelStartOptions="3"
+			channelSendOptions="8">
 
                 <Manager className="org.apache.catalina.ha.session.DeltaManager"
                          expireSessionsOnShutdown="false"
                          notifyListenersOnReplication="true"/>
 
                 <Channel className="org.apache.catalina.tribes.group.GroupChannel">
-                    <Receiver className="org.apache.catalina.tribes.transport.nio.NioReceiver"
+                    <!--<Receiver className="org.apache.catalina.tribes.transport.nio.NioReceiver"
                               address="auto"
                               port="4000"
                               autoBind="100"
                               selectorTimeout="5000"
-                              maxThreads="6"/>
+                              maxThreads="6"/>-->
 
                     <Sender className="org.apache.catalina.tribes.transport.ReplicationTransmitter">
                         <Transport className="org.apache.catalina.tribes.transport.nio.PooledParallelSender"/>
                     </Sender>
-                    <Interceptor className="org.apache.catalina.tribes.group.interceptors.TcpFailureDetector">
+                    <Interceptor className="org.apache.catalina.tribes.group.interceptors.TcpFailureDetector"/>
 
-                        <Interceptor className="org.apache.catalina.tribes.group.interceptors.StaticMembershipInterceptor">
+                    <Interceptor className="org.apache.catalina.tribes.group.interceptors.StaticMembershipInterceptor">
                             <Member className="org.apache.catalina.tribes.membership.StaticMember"
                                         port="4000"
-                                        securePort="-1"
                                         host="172.28.5.1"
                                         domain="staging-cluster"
                                         uniqueId="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1}"/>
                             <Member className="org.apache.catalina.tribes.membership.StaticMember"
                                         port="4000"
-                                        securePort="-1"
                                         host="172.28.5.2"
                                         domain="staging-cluster"
                                         uniqueId="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2}"/>
                             <Member className="org.apache.catalina.tribes.membership.StaticMember"
                                         port="4000"
-                                        securePort="-1"
                                         host="172.28.5.3"
                                         domain="staging-cluster"
                                         uniqueId="{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3}"/>
-                        </Interceptor>
-
                     </Interceptor>
+
                     <Interceptor className="org.apache.catalina.tribes.group.interceptors.MessageDispatchInterceptor"/>
 
                 </Channel>
