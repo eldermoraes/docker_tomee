@@ -1,0 +1,603 @@
+05-Jul-2017 22:03:06.418 INFO [main] org.apache.openejb.persistence.PersistenceBootstrap.getDefaultProvider Default JPA Provider changed to org.eclipse.persistence.jpa.PersistenceProvider
+05-Jul-2017 22:03:07.134 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke IntrospectionUtils: InvocationTargetException for class org.apache.catalina.tribes.membership.StaticMember host=tomee-soujava2)
+ java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.IntrospectionUtils.setProperty(IntrospectionUtils.java:70)
+	at org.apache.tomcat.util.IntrospectionUtils.setProperty(IntrospectionUtils.java:47)
+	at org.apache.tomcat.util.digester.SetPropertiesRule.begin(SetPropertiesRule.java:72)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1190)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:182)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1339)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:578)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:629)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.lang.RuntimeException: java.net.UnknownHostException: tomee-soujava2: Name or service not known
+	at org.apache.catalina.tribes.membership.StaticMember.setHost(StaticMember.java:43)
+	... 28 more
+Caused by: java.net.UnknownHostException: tomee-soujava2: Name or service not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at java.net.InetAddress.getByName(InetAddress.java:1076)
+	at org.apache.catalina.tribes.membership.MemberImpl.setHostname(MemberImpl.java:596)
+	... 29 more
+
+05-Jul-2017 22:03:07.135 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke [SetPropertiesRule]{Server/Service/Engine/Cluster/Channel/Interceptor/Member} Setting property 'host' to 'tomee-soujava2' did not find a matching property.
+05-Jul-2017 22:03:07.408 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke IntrospectionUtils: InvocationTargetException for class org.apache.catalina.tribes.membership.StaticMember host=tomee-soujava3)
+ java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.IntrospectionUtils.setProperty(IntrospectionUtils.java:70)
+	at org.apache.tomcat.util.IntrospectionUtils.setProperty(IntrospectionUtils.java:47)
+	at org.apache.tomcat.util.digester.SetPropertiesRule.begin(SetPropertiesRule.java:72)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1190)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:509)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:182)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1339)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:578)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:629)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.lang.RuntimeException: java.net.UnknownHostException: tomee-soujava3: Name or service not known
+	at org.apache.catalina.tribes.membership.StaticMember.setHost(StaticMember.java:43)
+	... 28 more
+Caused by: java.net.UnknownHostException: tomee-soujava3: Name or service not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at java.net.InetAddress.getByName(InetAddress.java:1076)
+	at org.apache.catalina.tribes.membership.MemberImpl.setHostname(MemberImpl.java:596)
+	... 29 more
+
+05-Jul-2017 22:03:07.409 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke [SetPropertiesRule]{Server/Service/Engine/Cluster/Channel/Interceptor/Member} Setting property 'host' to 'tomee-soujava3' did not find a matching property.
+05-Jul-2017 22:03:07.482 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.11 (7.0.3)
+05-Jul-2017 22:03:07.482 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Jan 10 2017 21:02:52 UTC
+05-Jul-2017 22:03:07.482 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.11.0
+05-Jul-2017 22:03:07.482 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Linux
+05-Jul-2017 22:03:07.483 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            4.8.0-56-generic
+05-Jul-2017 22:03:07.483 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+05-Jul-2017 22:03:07.483 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+05-Jul-2017 22:03:07.483 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_131-8u131-b11-1~bpo8+1-b11
+05-Jul-2017 22:03:07.483 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+05-Jul-2017 22:03:07.483 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /usr/local/tomee
+05-Jul-2017 22:03:07.484 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /usr/local/tomee
+05-Jul-2017 22:03:07.484 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/usr/local/tomee/conf/logging.properties
+05-Jul-2017 22:03:07.484 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jul-2017 22:03:07.484 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:/usr/local/tomee/lib/openejb-javaagent.jar
+05-Jul-2017 22:03:07.484 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jul-2017 22:03:07.485 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jul-2017 22:03:07.485 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/usr/local/tomee
+05-Jul-2017 22:03:07.485 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/usr/local/tomee
+05-Jul-2017 22:03:07.485 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/usr/local/tomee/temp
+05-Jul-2017 22:03:07.485 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+05-Jul-2017 22:03:07.663 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+05-Jul-2017 22:03:07.689 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+05-Jul-2017 22:03:07.695 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Jul-2017 22:03:07.698 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+05-Jul-2017 22:03:08.171 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+05-Jul-2017 22:03:08.341 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+05-Jul-2017 22:03:08.342 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+05-Jul-2017 22:03:08.343 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Wed Jul 05 22:03:08 UTC 2017
+05-Jul-2017 22:03:08.345 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2017 (C) Apache OpenEJB Project, All Rights Reserved.
+05-Jul-2017 22:03:08.345 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.3
+05-Jul-2017 22:03:08.346 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20170307
+05-Jul-2017 22:03:08.346 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 10:02
+05-Jul-2017 22:03:08.347 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+05-Jul-2017 22:03:08.350 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = /usr/local/tomee
+05-Jul-2017 22:03:08.350 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = /usr/local/tomee
+05-Jul-2017 22:03:08.353 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@1b1473ab
+05-Jul-2017 22:03:08.354 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+05-Jul-2017 22:03:08.436 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is '/usr/local/tomee/conf/tomee.xml'
+05-Jul-2017 22:03:08.519 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+05-Jul-2017 22:03:08.523 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+05-Jul-2017 22:03:08.526 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=AppTestDs, type=Resource, provider-id=Default JDBC Database)
+05-Jul-2017 22:03:08.529 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+05-Jul-2017 22:03:08.531 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+05-Jul-2017 22:03:08.628 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+05-Jul-2017 22:03:08.684 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=AppTestDs)
+05-Jul-2017 22:03:09.079 SEVERE [main] org.apache.tomcat.jdbc.pool.ConnectionPool.init Unable to create initial connections of pool.
+ com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2192)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2225)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2024)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:732)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:664)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:479)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEConnectionPool.<init>(TomEEDataSourceCreator.java:221)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource.createPool(TomEEDataSourceCreator.java:154)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource.<init>(TomEEDataSourceCreator.java:131)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator.pool(TomEEDataSourceCreator.java:68)
+	at org.apache.openejb.resource.jdbc.pool.PoolDataSourceCreator.poolManaged(PoolDataSourceCreator.java:80)
+	at org.apache.openejb.resource.jdbc.DataSourceFactory.create(DataSourceFactory.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.xbean.recipe.ReflectionUtil$StaticFactory.create(ReflectionUtil.java:997)
+	at org.apache.xbean.recipe.ObjectRecipe.internalCreate(ObjectRecipe.java:276)
+	at org.apache.xbean.recipe.AbstractRecipe.create(AbstractRecipe.java:96)
+	at org.apache.xbean.recipe.AbstractRecipe.create(AbstractRecipe.java:61)
+	at org.apache.openejb.assembler.classic.Assembler.doCreateResource(Assembler.java:2970)
+	at org.apache.openejb.assembler.classic.Assembler.createResource(Assembler.java:2803)
+	at org.apache.openejb.assembler.classic.Assembler.buildContainerSystem(Assembler.java:575)
+	at org.apache.openejb.assembler.classic.Assembler.build(Assembler.java:484)
+	at org.apache.openejb.OpenEJB$Instance.<init>(OpenEJB.java:150)
+	at org.apache.openejb.OpenEJB.init(OpenEJB.java:307)
+	at org.apache.tomee.catalina.TomcatLoader.initialize(TomcatLoader.java:247)
+	at org.apache.tomee.catalina.ServerListener.lifecycleEvent(ServerListener.java:168)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:108)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:606)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:629)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 51 more
+
+05-Jul-2017 22:03:09.092 SEVERE [main] org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource.<init> Can't create DataSource
+ com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2192)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2225)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2024)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:732)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:664)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:479)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEConnectionPool.<init>(TomEEDataSourceCreator.java:221)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource.createPool(TomEEDataSourceCreator.java:154)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource.<init>(TomEEDataSourceCreator.java:131)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator.pool(TomEEDataSourceCreator.java:68)
+	at org.apache.openejb.resource.jdbc.pool.PoolDataSourceCreator.poolManaged(PoolDataSourceCreator.java:80)
+	at org.apache.openejb.resource.jdbc.DataSourceFactory.create(DataSourceFactory.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.xbean.recipe.ReflectionUtil$StaticFactory.create(ReflectionUtil.java:997)
+	at org.apache.xbean.recipe.ObjectRecipe.internalCreate(ObjectRecipe.java:276)
+	at org.apache.xbean.recipe.AbstractRecipe.create(AbstractRecipe.java:96)
+	at org.apache.xbean.recipe.AbstractRecipe.create(AbstractRecipe.java:61)
+	at org.apache.openejb.assembler.classic.Assembler.doCreateResource(Assembler.java:2970)
+	at org.apache.openejb.assembler.classic.Assembler.createResource(Assembler.java:2803)
+	at org.apache.openejb.assembler.classic.Assembler.buildContainerSystem(Assembler.java:575)
+	at org.apache.openejb.assembler.classic.Assembler.build(Assembler.java:484)
+	at org.apache.openejb.OpenEJB$Instance.<init>(OpenEJB.java:150)
+	at org.apache.openejb.OpenEJB.init(OpenEJB.java:307)
+	at org.apache.tomee.catalina.TomcatLoader.initialize(TomcatLoader.java:247)
+	at org.apache.tomee.catalina.ServerListener.lifecycleEvent(ServerListener.java:168)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:108)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:606)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:629)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 51 more
+
+05-Jul-2017 22:03:09.337 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+05-Jul-2017 22:03:09.604 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+05-Jul-2017 22:03:09.705 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+05-Jul-2017 22:03:09.705 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT
+05-Jul-2017 22:03:09.705 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+05-Jul-2017 22:03:09.705 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+05-Jul-2017 22:03:09.706 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 3248 ms
+05-Jul-2017 22:03:09.743 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+05-Jul-2017 22:03:09.743 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+05-Jul-2017 22:03:09.746 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service Catalina
+05-Jul-2017 22:03:09.746 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.11 (7.0.3)
+05-Jul-2017 22:03:09.762 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Cluster is about to start
+05-Jul-2017 22:03:09.768 FINE [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting replication listener on address:172.17.0.3
+05-Jul-2017 22:03:09.770 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Receiver Server Socket bound to:/172.17.0.3:4000
+05-Jul-2017 22:03:09.783 INFO [Thread-18] sun.reflect.DelegatingMethodAccessorImpl.invoke Replication member added:org.apache.catalina.tribes.membership.StaticMember[tcp://tomee-soujava1:4000,tomee-soujava1,4000, alive=0, securePort=-1, UDP Port=-1, id={0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }, payload={}, command={}, domain={115 116 97 103 105 110 103 45 99 ...(15)}, ]
+05-Jul-2017 22:03:09.801 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to 500
+05-Jul-2017 22:03:09.805 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for 1000 milliseconds to establish cluster membership, start level:4
+05-Jul-2017 22:03:09.932 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:104857600 bytes of type: org.apache.catalina.tribes.io.BufferPool15Impl
+05-Jul-2017 22:03:09.935 FINE [Tribes-Task-Receiver[Catalina-Channel]-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Received a failure detector packet:ClusterData[src=org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 3}:4000,{172, 17, 0, 3},4000, alive=1499292189778, securePort=-1, UDP Port=-1, id={30 -123 112 -85 82 -107 72 13 -110 85 -69 -62 76 65 57 54 }, payload={}, command={}, domain={}, ]; id={121 123 38 -110 32 -67 68 -124 -94 -59 79 -22 -5 95 -74 -78 }; sent=2017-07-05 22:03:09.781]
+05-Jul-2017 22:03:09.939 FINE [Tribes-Task-Receiver[Catalina-Channel]-3] org.apache.catalina.tribes.transport.nio.NioReplicationTask.remoteEof Channel closed on the remote end, disconnecting
+05-Jul-2017 22:03:10.805 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:4
+05-Jul-2017 22:03:10.807 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for 1000 milliseconds to establish cluster membership, start level:8
+05-Jul-2017 22:03:11.807 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:8
+05-Jul-2017 22:03:11.808 WARNING [main] sun.reflect.NativeMethodAccessorImpl.invoke There is no TcpPingInterceptor. The health check of static members does not work properly. By defining the TcpPingInterceptor, the health check of static members will work.
+05-Jul-2017 22:03:11.809 SEVERE [main] sun.reflect.NativeMethodAccessorImpl.invoke FarmWarDeployer can only work as host cluster subelement!
+05-Jul-2017 22:03:11.869 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive /usr/local/tomee/webapps/apptest.war
+05-Jul-2017 22:03:11.882 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /apptest
+05-Jul-2017 22:03:11.891 INFO [localhost-startStop-1] org.apache.openejb.util.JarExtractor.extract Extracting jar: /usr/local/tomee/webapps/apptest.war
+05-Jul-2017 22:03:11.903 INFO [localhost-startStop-1] org.apache.openejb.util.JarExtractor.extract Extracted path: /usr/local/tomee/webapps/apptest
+05-Jul-2017 22:03:12.806 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /usr/local/tomee/webapps/apptest
+05-Jul-2017 22:03:13.430 INFO [localhost-startStop-1] org.apache.openejb.config.InitEjbDeployments.deploy Auto-deploying ejb AccessBean: EjbDeployment(deployment-id=AccessBean)
+05-Jul-2017 22:03:13.441 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+05-Jul-2017 22:03:13.442 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean AccessBean: Container(type=STATELESS, id=Default Stateless Container)
+05-Jul-2017 22:03:13.442 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Stateless Container)
+05-Jul-2017 22:03:13.492 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+05-Jul-2017 22:03:13.493 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean apptest.Comp881258905: Container(type=MANAGED, id=Default Managed Container)
+05-Jul-2017 22:03:13.493 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+05-Jul-2017 22:03:13.512 INFO [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory /usr/local/tomee/temp for stateful session passivation
+05-Jul-2017 22:03:13.534 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.deploy Configuring PersistenceUnit(name=AppTestPU)
+05-Jul-2017 22:03:13.536 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'AppTestDsNonJta' of type 'DataSource for 'AppTestPU'.
+05-Jul-2017 22:03:13.536 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.deploy Configuring Service(id=AppTestDsNonJta, type=Resource, provider-id=AppTestDs)
+05-Jul-2017 22:03:13.536 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=AppTestDsNonJta)
+05-Jul-2017 22:03:13.577 SEVERE [localhost-startStop-1] org.apache.tomcat.jdbc.pool.ConnectionPool.init Unable to create initial connections of pool.
+ com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2192)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2225)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2024)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:732)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:664)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:479)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEConnectionPool.<init>(TomEEDataSourceCreator.java:221)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource.createPool(TomEEDataSourceCreator.java:154)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource.<init>(TomEEDataSourceCreator.java:131)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator.pool(TomEEDataSourceCreator.java:68)
+	at org.apache.openejb.resource.jdbc.DataSourceFactory.create(DataSourceFactory.java:216)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.xbean.recipe.ReflectionUtil$StaticFactory.create(ReflectionUtil.java:997)
+	at org.apache.xbean.recipe.ObjectRecipe.internalCreate(ObjectRecipe.java:276)
+	at org.apache.xbean.recipe.AbstractRecipe.create(AbstractRecipe.java:96)
+	at org.apache.xbean.recipe.AbstractRecipe.create(AbstractRecipe.java:61)
+	at org.apache.openejb.assembler.classic.Assembler.doCreateResource(Assembler.java:2970)
+	at org.apache.openejb.assembler.classic.Assembler.createResource(Assembler.java:2803)
+	at org.apache.openejb.config.ConfigurationFactory.doInstall(ConfigurationFactory.java:466)
+	at org.apache.openejb.config.ConfigurationFactory.install(ConfigurationFactory.java:459)
+	at org.apache.openejb.config.AutoConfig.installResource(AutoConfig.java:2194)
+	at org.apache.openejb.config.AutoConfig.deploy(AutoConfig.java:1722)
+	at org.apache.openejb.config.AutoConfig.deploy(AutoConfig.java:210)
+	at org.apache.openejb.config.ConfigurationFactory$Chain.deploy(ConfigurationFactory.java:420)
+	at org.apache.openejb.config.ConfigurationFactory.configureApplication(ConfigurationFactory.java:1037)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.startInternal(TomcatWebAppBuilder.java:1276)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.configureStart(TomcatWebAppBuilder.java:1124)
+	at org.apache.tomee.catalina.GlobalListenerSupport.lifecycleEvent(GlobalListenerSupport.java:133)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 56 more
+
+05-Jul-2017 22:03:13.605 SEVERE [localhost-startStop-1] org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource.<init> Can't create DataSource
+ com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2192)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2225)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2024)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:732)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:664)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:479)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEConnectionPool.<init>(TomEEDataSourceCreator.java:221)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource.createPool(TomEEDataSourceCreator.java:154)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator$TomEEDataSource.<init>(TomEEDataSourceCreator.java:131)
+	at org.apache.tomee.jdbc.TomEEDataSourceCreator.pool(TomEEDataSourceCreator.java:68)
+	at org.apache.openejb.resource.jdbc.DataSourceFactory.create(DataSourceFactory.java:216)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.xbean.recipe.ReflectionUtil$StaticFactory.create(ReflectionUtil.java:997)
+	at org.apache.xbean.recipe.ObjectRecipe.internalCreate(ObjectRecipe.java:276)
+	at org.apache.xbean.recipe.AbstractRecipe.create(AbstractRecipe.java:96)
+	at org.apache.xbean.recipe.AbstractRecipe.create(AbstractRecipe.java:61)
+	at org.apache.openejb.assembler.classic.Assembler.doCreateResource(Assembler.java:2970)
+	at org.apache.openejb.assembler.classic.Assembler.createResource(Assembler.java:2803)
+	at org.apache.openejb.config.ConfigurationFactory.doInstall(ConfigurationFactory.java:466)
+	at org.apache.openejb.config.ConfigurationFactory.install(ConfigurationFactory.java:459)
+	at org.apache.openejb.config.AutoConfig.installResource(AutoConfig.java:2194)
+	at org.apache.openejb.config.AutoConfig.deploy(AutoConfig.java:1722)
+	at org.apache.openejb.config.AutoConfig.deploy(AutoConfig.java:210)
+	at org.apache.openejb.config.ConfigurationFactory$Chain.deploy(ConfigurationFactory.java:420)
+	at org.apache.openejb.config.ConfigurationFactory.configureApplication(ConfigurationFactory.java:1037)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.startInternal(TomcatWebAppBuilder.java:1276)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.configureStart(TomcatWebAppBuilder.java:1124)
+	at org.apache.tomee.catalina.GlobalListenerSupport.lifecycleEvent(GlobalListenerSupport.java:133)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5087)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 56 more
+
+05-Jul-2017 22:03:13.608 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.setNonJtaDataSource Adjusting PersistenceUnit AppTestPU <non-jta-data-source> to Resource ID 'AppTestDsNonJta' from 'null'
+05-Jul-2017 22:03:13.708 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/usr/local/tomee/webapps/apptest" loaded.
+05-Jul-2017 22:03:13.717 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /usr/local/tomee/webapps/apptest
+05-Jul-2017 22:03:13.886 FINE [Tribes-Task-Receiver[Catalina-Channel]-4] sun.reflect.DelegatingMethodAccessorImpl.invoke Received a failure detector packet:ClusterData[src=org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 4}:4000,{172, 17, 0, 4},4000, alive=10, securePort=-1, UDP Port=-1, id={-127 3 56 4 96 48 70 -101 -79 25 64 -113 99 13 -126 -19 }, payload={}, command={}, domain={}, ]; id={115 -19 35 84 45 -33 75 -86 -115 123 -109 43 -9 -92 -34 -107 }; sent=2017-07-05 22:03:13.878]
+05-Jul-2017 22:03:13.887 FINE [Tribes-Task-Receiver[Catalina-Channel]-5] org.apache.catalina.tribes.transport.nio.NioReplicationTask.remoteEof Channel closed on the remote end, disconnecting
+05-Jul-2017 22:03:14.785 FINE [Tribes-MembershipReceiver[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.memberDataReceived Mcast add member org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 4}:4000,{172, 17, 0, 4},4000, alive=1013, securePort=-1, UDP Port=-1, id={-127 3 56 4 96 48 70 -101 -79 25 64 -113 99 13 -126 -19 }, payload={}, command={}, domain={}, ]
+05-Jul-2017 22:03:14.820 INFO [Membership-MemberAdded.] sun.reflect.DelegatingMethodAccessorImpl.invoke Replication member added:org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 4}:4000,{172, 17, 0, 4},4000, alive=1018, securePort=-1, UDP Port=-1, id={-127 3 56 4 96 48 70 -101 -79 25 64 -113 99 13 -126 -19 }, payload={}, command={}, domain={}, ]
+05-Jul-2017 22:03:15.167 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=AppTestPU, provider=org.eclipse.persistence.jpa.PersistenceProvider) - provider time 1327ms
+05-Jul-2017 22:03:15.255 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=AccessBeanLocalBean) --> Ejb(deployment-id=AccessBean)
+05-Jul-2017 22:03:15.256 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/apptest/AccessBean!br.com.eldermoraes.apptest.business.AccessBean) --> Ejb(deployment-id=AccessBean)
+05-Jul-2017 22:03:15.259 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/apptest/AccessBean) --> Ejb(deployment-id=AccessBean)
+05-Jul-2017 22:03:15.297 INFO [localhost-startStop-1] org.apache.openejb.cdi.CdiBuilder.initSingleton Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1b1473ab
+05-Jul-2017 22:03:15.411 INFO [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container is starting...
+05-Jul-2017 22:03:15.419 INFO [localhost-startStop-1] org.apache.webbeans.plugins.PluginLoader.startUp Adding OpenWebBeansPlugin : [CdiPlugin]
+05-Jul-2017 22:03:15.992 INFO [localhost-startStop-1] org.apache.webbeans.config.BeansDeployer.validateInjectionPoints All injection points were validated successfully.
+05-Jul-2017 22:03:15.999 INFO [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container has started, it took 588 ms.
+05-Jul-2017 22:03:16.015 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=AccessBean, ejb-name=AccessBean, container=Default Stateless Container)
+05-Jul-2017 22:03:16.059 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=AccessBean, ejb-name=AccessBean, container=Default Stateless Container)
+05-Jul-2017 22:03:16.059 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /usr/local/tomee/webapps/apptest/META-INF/context.xml
+05-Jul-2017 22:03:16.077 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/usr/local/tomee/webapps/apptest)
+05-Jul-2017 22:03:16.669 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jul-2017 22:03:16.848 WARNING [GroupChannel-Heartbeat[Catalina-Channel]-1] sun.reflect.NativeMethodAccessorImpl.invoke Unable to perform heartbeat on the TcpFailureDetector.
+ java.lang.ArrayIndexOutOfBoundsException: 0
+	at org.apache.catalina.tribes.membership.MemberImpl.hashCode(MemberImpl.java:570)
+	at java.util.HashMap.hash(HashMap.java:338)
+	at java.util.HashMap.containsKey(HashMap.java:595)
+	at org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.performBasicCheck(TcpFailureDetector.java:258)
+	at org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.checkMembers(TcpFailureDetector.java:225)
+	at org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.heartbeat(TcpFailureDetector.java:218)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.heartbeat(ChannelInterceptorBase.java:100)
+	at org.apache.catalina.tribes.group.GroupChannel.heartbeat(GroupChannel.java:161)
+	at org.apache.catalina.tribes.group.GroupChannel$HeartbeatThread.run(GroupChannel.java:719)
+
+05-Jul-2017 22:03:17.098 INFO [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager localhost#/apptest to cluster element Engine with name Catalina
+05-Jul-2017 22:03:17.099 INFO [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at localhost#/apptest
+05-Jul-2017 22:03:17.112 INFO [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/apptest], requesting session state from org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 4}:4000,{172, 17, 0, 4},4000, alive=3035, securePort=-1, UDP Port=-1, id={-127 3 56 4 96 48 70 -101 -79 25 64 -113 99 13 -126 -19 }, payload={}, command={}, domain={}, ]. This operation will timeout if no session state has been received within 60 seconds.
+05-Jul-2017 22:03:17.313 WARNING [localhost-startStop-1] org.apache.catalina.ha.session.DeltaManager.waitForSendAllSessions Manager [localhost#/apptest]: No context manager send at 7/5/17 10:03 PM received in 213 ms.
+05-Jul-2017 22:03:17.351 FINE [Tribes-Task-Receiver[Catalina-Channel]-2] sun.reflect.DelegatingMethodAccessorImpl.invoke Received a failure detector packet:ClusterData[src=org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 5}:4000,{172, 17, 0, 5},4000, alive=17, securePort=-1, UDP Port=-1, id={-2 83 115 -6 -84 -32 75 64 -82 92 58 52 60 -72 -39 16 }, payload={}, command={}, domain={}, ]; id={109 -120 122 13 -83 20 78 -37 -124 43 84 83 -33 -122 -14 107 }; sent=2017-07-05 22:03:17.331]
+05-Jul-2017 22:03:17.352 FINE [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.transport.nio.NioReplicationTask.remoteEof Channel closed on the remote end, disconnecting
+05-Jul-2017 22:03:18.108 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using readers:
+05-Jul-2017 22:03:18.110 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@6184293c
+05-Jul-2017 22:03:18.111 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@1f87a4c8
+05-Jul-2017 22:03:18.115 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@6e14d57c
+05-Jul-2017 22:03:18.129 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@129e9d0b
+05-Jul-2017 22:03:18.130 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@48c986be
+05-Jul-2017 22:03:18.131 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@6a4ada8b
+05-Jul-2017 22:03:18.132 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJohnzonProvider@26494c00
+05-Jul-2017 22:03:18.132 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@4d508602
+05-Jul-2017 22:03:18.133 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@74abfde1
+05-Jul-2017 22:03:18.134 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@3426f781
+05-Jul-2017 22:03:18.135 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@58639449
+05-Jul-2017 22:03:18.136 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using writers:
+05-Jul-2017 22:03:18.137 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.johnzon.jaxrs.WadlDocumentMessageBodyWriter@114a69d1
+05-Jul-2017 22:03:18.137 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@74abfde1
+05-Jul-2017 22:03:18.140 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@48c986be
+05-Jul-2017 22:03:18.141 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@6184293c
+05-Jul-2017 22:03:18.142 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@1f87a4c8
+05-Jul-2017 22:03:18.143 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@6e14d57c
+05-Jul-2017 22:03:18.146 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@129e9d0b
+05-Jul-2017 22:03:18.146 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@6a4ada8b
+05-Jul-2017 22:03:18.147 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJohnzonProvider@26494c00
+05-Jul-2017 22:03:18.147 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@4d508602
+05-Jul-2017 22:03:18.147 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@3426f781
+05-Jul-2017 22:03:18.147 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@58639449
+05-Jul-2017 22:03:18.147 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using exception mappers:
+05-Jul-2017 22:03:18.148 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper@7d85220a
+05-Jul-2017 22:03:18.148 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.EJBExceptionMapper@265ea114
+05-Jul-2017 22:03:18.148 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.validation.ValidationExceptionMapper@127600b2
+05-Jul-2017 22:03:18.152 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints REST Application: http://localhost:8080/apptest/rs                         -> br.com.eldermoraes.apptest.AppConfigTest@352aecd4
+05-Jul-2017 22:03:18.157 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/apptest/rs/testcontroller          -> Pojo br.com.eldermoraes.apptest.TestController
+05-Jul-2017 22:03:18.157 INFO [localhost-startStop-1] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/apptest/rs/testcontroller/testdata ->      void testData(HttpServletRequest, HttpServletResponse)
+05-Jul-2017 22:03:18.192 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive /usr/local/tomee/webapps/apptest.war has finished in 6,324 ms
+05-Jul-2017 22:03:18.195 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory /usr/local/tomee/webapps/manager
+05-Jul-2017 22:03:18.197 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+05-Jul-2017 22:03:18.222 FINE [Tribes-MembershipReceiver[Catalina-Channel]] org.apache.catalina.tribes.membership.McastServiceImpl.memberDataReceived Mcast add member org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 5}:4000,{172, 17, 0, 5},4000, alive=1042, securePort=-1, UDP Port=-1, id={-2 83 115 -6 -84 -32 75 64 -82 92 58 52 60 -72 -39 16 }, payload={}, command={}, domain={}, ]
+05-Jul-2017 22:03:18.224 INFO [Membership-MemberAdded.] sun.reflect.DelegatingMethodAccessorImpl.invoke Replication member added:org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 17, 0, 5}:4000,{172, 17, 0, 5},4000, alive=1044, securePort=-1, UDP Port=-1, id={-2 83 115 -6 -84 -32 75 64 -82 92 58 52 60 -72 -39 16 }, payload={}, command={}, domain={}, ]
+05-Jul-2017 22:03:18.368 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /usr/local/tomee/webapps/manager
+05-Jul-2017 22:03:18.395 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/usr/local/tomee/webapps/manager" loaded.
+05-Jul-2017 22:03:18.396 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /usr/local/tomee/webapps/manager
+05-Jul-2017 22:03:18.428 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /usr/local/tomee/webapps/manager/META-INF/context.xml
+05-Jul-2017 22:03:18.428 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/usr/local/tomee/webapps/manager)
+05-Jul-2017 22:03:18.616 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jul-2017 22:03:18.670 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory /usr/local/tomee/webapps/manager has finished in 474 ms
+05-Jul-2017 22:03:18.671 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory /usr/local/tomee/webapps/ROOT
+05-Jul-2017 22:03:18.672 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+05-Jul-2017 22:03:18.797 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /usr/local/tomee/webapps/ROOT
+05-Jul-2017 22:03:18.801 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/usr/local/tomee/webapps/ROOT" loaded.
+05-Jul-2017 22:03:18.801 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /usr/local/tomee/webapps/ROOT
+05-Jul-2017 22:03:18.809 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/usr/local/tomee/webapps/ROOT)
+05-Jul-2017 22:03:18.938 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jul-2017 22:03:18.983 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory /usr/local/tomee/webapps/ROOT has finished in 313 ms
+05-Jul-2017 22:03:18.984 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory /usr/local/tomee/webapps/docs
+05-Jul-2017 22:03:18.986 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+05-Jul-2017 22:03:19.079 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /usr/local/tomee/webapps/docs
+05-Jul-2017 22:03:19.098 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/usr/local/tomee/webapps/docs" loaded.
+05-Jul-2017 22:03:19.099 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /usr/local/tomee/webapps/docs
+05-Jul-2017 22:03:19.120 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/usr/local/tomee/webapps/docs)
+05-Jul-2017 22:03:19.258 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jul-2017 22:03:19.335 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory /usr/local/tomee/webapps/docs has finished in 351 ms
+05-Jul-2017 22:03:19.335 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory /usr/local/tomee/webapps/host-manager
+05-Jul-2017 22:03:19.336 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+05-Jul-2017 22:03:19.468 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /usr/local/tomee/webapps/host-manager
+05-Jul-2017 22:03:19.492 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/usr/local/tomee/webapps/host-manager" loaded.
+05-Jul-2017 22:03:19.492 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /usr/local/tomee/webapps/host-manager
+05-Jul-2017 22:03:19.520 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file /usr/local/tomee/webapps/host-manager/META-INF/context.xml
+05-Jul-2017 22:03:19.520 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/usr/local/tomee/webapps/host-manager)
+05-Jul-2017 22:03:19.638 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jul-2017 22:03:19.674 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory /usr/local/tomee/webapps/host-manager has finished in 339 ms
+05-Jul-2017 22:03:19.692 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke JvmRouteBinderValve started
+05-Jul-2017 22:03:19.728 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [http-nio-8080]
+05-Jul-2017 22:03:19.786 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [ajp-nio-8009]
+05-Jul-2017 22:03:19.790 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 10084 ms
+05-Jul-2017 22:03:21.848 WARNING [GroupChannel-Heartbeat[Catalina-Channel]-1] sun.reflect.NativeMethodAccessorImpl.invoke Unable to perform heartbeat on the TcpFailureDetector.
+ java.lang.ArrayIndexOutOfBoundsException: 0
+	at org.apache.catalina.tribes.membership.MemberImpl.hashCode(MemberImpl.java:570)
+	at java.util.HashMap.hash(HashMap.java:338)
+	at java.util.HashMap.containsKey(HashMap.java:595)
+	at org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.performBasicCheck(TcpFailureDetector.java:258)
+	at org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.checkMembers(TcpFailureDetector.java:225)
+	at org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.heartbeat(TcpFailureDetector.java:218)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.heartbeat(ChannelInterceptorBase.java:100)
+	at org.apache.catalina.tribes.group.GroupChannel.heartbeat(GroupChannel.java:161)
+	at org.apache.catalina.tribes.group.GroupChannel$HeartbeatThread.run(GroupChannel.java:719)
