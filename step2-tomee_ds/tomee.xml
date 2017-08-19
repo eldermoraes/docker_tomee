@@ -6,11 +6,10 @@
   <!-- <Deployments dir="apps" /> -->
 	<Resource id="AppTestDs" type="DataSource">
 	    	JdbcDriver = com.mysql.jdbc.Driver
-    		JdbcUrl = jdbc:mysql://mysql-soujava:3306/soujava
+    		JdbcUrl = jdbc:mysql://mysql-jhonatan:3306/jhonatan
 	    	UserName = root
-    		Password = soujava
+    		Password = teste
 	</Resource>
 </tomee>
-
 
 
