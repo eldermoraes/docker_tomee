@@ -1,9 +1,7 @@
-docker rmi -f tomee-soujava
-docker rmi -f mysql-soujava
+docker rmi -f tomee_lucas
+docker rmi -f mysql_lucas
 
-# cp ../apptest/target/apptest-1.0.war apptest.war
-
-docker build -t tomee-soujava .
+docker build -t tomee_lucas .
 
 cd mysql
-docker build -t mysql-soujava .
+docker build -t mysql_lucas .
