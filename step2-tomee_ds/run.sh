@@ -1,15 +1,15 @@
 docker rm -f $(docker ps -a -q)
 
-docker run -d --name mysql-soujava \
-	-h mysql-soujava \
+docker run -d --name mysql-juliano \
+	-h mysql-juliano \
 	-p 3306:3306 \
-	-e MYSQL_ROOT_PASSWORD=soujava \
-	-e MYSQL_DATABASE=soujava \
-	mysql-soujava
+	-e MYSQL_ROOT_PASSWORD=juliano \
+	-e MYSQL_DATABASE=juliano \
+	mysql-juliano
 
 sleep 3
 
-docker run -d --name tomee-soujava \
-	-h tomee-soujava \
-	--link mysql-soujava:mysql-soujava \
-        -p 8080:8080 tomee-soujava
+docker run -d --name tomee-juliano \
+	-h tomee-juliano \
+	--link mysql-juliano:mysql-juliano \
+        -p 8080:8080 tomee-juliano
